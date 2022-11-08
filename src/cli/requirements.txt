@@ -15,6 +15,6 @@ azure-cli-core==2.21.0
 # cryptography needs to be pinned to the version used by azure-cli-core
 cryptography<3.4,>=3.2
 # PyJWT needs to be pinned to the version used by azure-cli-core
-pyjwt==1.7.1
+pyjwt==2.4.0
 # onefuzztypes version is set during build
 onefuzztypes==0.0.0
