@@ -1,2 +1,4 @@
 # Update this version to the SDK version used.
 onefuzz==1.0.0
+msal>=1.24.1 # not directly required, pinned by Snyk to avoid a vulnerability
+pydantic>=1.10.13 # not directly required, pinned by Snyk to avoid a vulnerability
