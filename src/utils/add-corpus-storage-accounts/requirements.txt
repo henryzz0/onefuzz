@@ -1,3 +1,6 @@
 azure-mgmt-storage~=17.0.0
 azure-cli-core==2.19.1
 azure-mgmt-eventgrid==3.0.0rc9
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=41.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.31.0 # not directly required, pinned by Snyk to avoid a vulnerability
