@@ -32,3 +32,4 @@ typing-extensions~=3.7.4.3
 jsonpatch==1.28
 # onefuzz types version is set during build
 onefuzztypes==0.0.0
+jwcrypto>=1.5.6 # not directly required, pinned by Snyk to avoid a vulnerability
