@@ -1,1 +1,2 @@
 azure-devops==6.0.0b2
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
