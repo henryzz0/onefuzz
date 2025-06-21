@@ -32,3 +32,5 @@ typing-extensions~=3.7.4.3
 jsonpatch==1.28
 # onefuzz types version is set during build
 onefuzztypes==0.0.0
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
