@@ -1,5 +1,5 @@
 azure-common~=1.1.25
-azure-core==1.10.0
+azure-core==1.38.0
 azure-cosmosdb-nspkg==2.0.2
 azure-cosmosdb-table==1.0.6
 azure-devops==6.0.0b4
@@ -32,3 +32,4 @@ typing-extensions~=3.7.4.3
 jsonpatch==1.28
 # onefuzz types version is set during build
 onefuzztypes==0.0.0
+pyasn1>=0.6.2 # not directly required, pinned by Snyk to avoid a vulnerability
